@@ -90,13 +90,23 @@ function Home() {
                 src="https://reseauactionclimat.org/wp-content/uploads/2022/07/000_32et7wj-700x467.jpg"
                 alt="tree"
               />
+              <p>
+                <a href="https://reseauactionclimat.org/rechauffement-climatique-des-vagues-de-chaleur-plus-frequentes-et-plus-intenses/">
+                  Réchauffement climatique : des vagues de chaleur plus
+                  fréquentes et plus intenses{" "}
+                </a>
+              </p>
             </div>
             <div className="card">
               <img
                 src="https://reseauactionclimat.org/wp-content/uploads/2022/11/shahin-khalaji-ntd0ke7wsi-unsplash-700x467.jpg"
                 alt="tree"
               />
-              <p><a href="https://reseauactionclimat.org/climat-et-sante-des-enjeux-lies/">Climat et santé, des enjeux liés</a></p>
+              <p>
+                <a href="https://reseauactionclimat.org/climat-et-sante-des-enjeux-lies/">
+                  Climat et santé, des enjeux liés
+                </a>
+              </p>
             </div>
             <div className="card">
               <img src="https://reseauactionclimat.org/wp-content/uploads/2022/12/justin-clark-h7jieu8slnw-unsplash-200x300.jpg" />
@@ -106,7 +116,34 @@ function Home() {
                 </a>
               </p>
             </div>
+            <button className="btn">
+              <a
+                style={{ textDecoration: "none", color: "white" }}
+                href="https://reseauactionclimat.org/actualites/impacts-du-changement-climatique"
+              >
+                Lire plus
+              </a>
+            </button>
+            <br />
+            <br />
+            <br />
           </div>
+          <h3>
+            Savais-tu que chacun de nous a une empreinte carbone, comme une
+            petite empreinte écologique personnelle ? C'est un peu comme
+            l'impact que nous laissons derrière nous en vivant notre vie
+            quotidienne. Et devine quoi ? Tu as la possibilité de découvrir la
+            tienne ! 🌱 Si l'aventure te tente, n'hésite pas à simuler ton
+            empreinte carbone sur notre site. C'est super facile et peut-être
+            que tu découvriras quelques astuces sympas pour rendre ton impact
+            sur notre belle planète un peu plus léger ! 😊🌍
+        
+          </h3>
+          <button className="btn"><a style={{ textDecoration: "none", color: "white" }} href="https://nosgestesclimat.fr/">Let's go 🔥</a></button>
+          <br />
+            <br />
+            <br />
+        
         </section>
       </main>
       <footer className="home-footer">

@@ -43,3 +43,15 @@ img {
   align-items: center;
   gap: 15px;
 }
+.btn{
+  background-color: #61dafb;
+  border-radius: 10px;
+  width: 120px;
+  height: 40px;
+  cursor: pointer;
+  border: none;
+}
+a{
+    text-decoration: "none"; 
+    color: "white"
+}
