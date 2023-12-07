@@ -1,16 +1,24 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Home from './pages/Home'
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import React from "react";
+import Home from "./pages/Home"; // Assuming you have a Home component
+import Solution from "./pages/Solution";
+import Quiz from "./pages/Quiz";
+import Bot from "./pages/Bot";
+import 'react-chat-elements/dist/main.css'
+
 
 function App() {
-
   return (
-    <>
-     <Home />
-    </>
-  )
+    <div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/solutions" element={<Solution />} />
+        <Route path="/quiz" element={<Quiz />} />
+        <Route path="/chatbot" element={<Bot />} />
+      </Routes>
+    </div>
+  );
 }
 
-export default App
+export default App;
