@@ -9,7 +9,7 @@ function Home() {
       <NavBar />
       <div className="home">
         <header className="home-header">
-          <h1>Bienvenue sur ÉcoSavvy</h1>
+          <h1>Bienvenue sur Climato</h1>
           <p>
             Comprendre le changement climatique et agir pour un avenir durable
           </p>
@@ -186,7 +186,7 @@ function Home() {
           </section>
         </main>
         <footer className="home-footer">
-          <p>&copy; 2023 ÉcoSavvy. Tous droits réservés.</p>
+          <p>&copy; 2023 Climato. Tous droits réservés.</p>
         </footer>
       </div>
     </>
