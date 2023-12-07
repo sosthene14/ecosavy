@@ -62,7 +62,7 @@ function Home() {
         <br />
         <br />
         <section>
-          <h1>IMPACTS DU CHANGEMENT CLIMATIQUE</h1>
+          <h2>Impacts du changement climatique</h2>
           <h3
             style={{
               textAlign: "center",
@@ -140,9 +140,12 @@ function Home() {
             <br />
             <br />
           </div>
-          <div style={{display:"flex",alignItems:"center",gap:"10px"}}>
+          <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
             <h2>Emprunte Carbone</h2>
-            <img style={{width:"60px", height:"60px"}} src="https://c8.alamy.com/compfr/2atnk35/symbole-ou-concept-d-empreinte-carbone-empreinte-pieds-nus-en-herbe-verte-luxuriante-avec-texte-co-2-2atnk35.jpg" />
+            <img
+              style={{ width: "60px", height: "60px" }}
+              src="https://c8.alamy.com/compfr/2atnk35/symbole-ou-concept-d-empreinte-carbone-empreinte-pieds-nus-en-herbe-verte-luxuriante-avec-texte-co-2-2atnk35.jpg"
+            />
           </div>
 
           <h3>
@@ -191,8 +194,28 @@ function Home() {
             <br />
             <br />
             <br />
-            <div className="video-content">
-              {/* Tu peux ajouter ici une vidéo inspirante ou des images motivantes */}
+            <div className="video-content" style={{ display: "flex" ,gap: "10px",justifyContent: "center"}}>
+              <iframe
+                style={{ borderRadius: "10px" }}
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/NV9qGOJtddM?si=hInXn6EUPuSLW54K"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <div></div>
+              <iframe
+                style={{ borderRadius: "10px" }}
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/iCDYAunYQFA?si=zcLKHIBqEcBjzFEI"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
             </div>
           </div>
         </section>
