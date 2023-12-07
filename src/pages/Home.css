@@ -1,0 +1,24 @@
+/* Home.css */
+.home {
+    text-align: center;
+  }
+  
+  .home-header {
+    background-color: #61dafb;
+    padding: 20px;
+    color: white;
+  }
+  
+  .home-main {
+    padding: 20px;
+  }
+  
+  .home-footer {
+    background-color: #282c34;
+    padding: 10px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
