@@ -14,26 +14,36 @@ function Home() {
       <main className="home-main">
         <section style={{ marginLeft: "30px", marginRight: "30px" }}>
           <h2 style={{ textAlign: "left" }}>Qu'est-ce que ÉcoSavvy ?</h2>
-          <p style={{ textAlign: "left", width: "50%" }}>
+          <h3 style={{ textAlign: "left", width: "50%" }}>
             ÉcoSavvy est une plateforme éducative qui vise à sensibiliser le
             public aux enjeux du changement climatique. Nous vous fournissons
             des informations fiables basées sur les rapports du GIEC et de
             l'ADEME, ainsi que des outils interactifs pour comprendre votre
             impact sur l'environnement.
-          </p>
+          </h3>
         </section>
+        <img
+          style={{
+            marginTop: "50px",
+            width: "20%",
+            height: "20%",
+            marginBottom: "80px",
+          }}
+          src="https://previews.123rf.com/images/yupiramos/yupiramos1802/yupiramos180221271/95908446-changement-climatique-dessin-anim%C3%A9-triste-plan%C3%A8te-terre-sablier-temps-vector-illustration.jpg"
+        />
+
         <section>
           <div className="urgency-container">
             <div className="text-content">
               <h2 style={{ textAlign: "left" }}>
                 Comprendre l'Urgence Climatique
               </h2>
-              <p style={{ textAlign: "left", width: "70%" }}>
+              <h3 style={{ textAlign: "left", width: "70%" }}>
                 Le changement climatique est une réalité urgente qui nécessite
                 une action immédiate. Dans cette section, découvrez pourquoi il
                 est crucial de prendre des mesures dès maintenant pour préserver
                 notre planète et les générations futures.
-              </p>
+              </h3>
             </div>
             <div className="video-content">
               <iframe
@@ -49,9 +59,11 @@ function Home() {
             </div>
           </div>
         </section>
+        <br />
+        <br />
         <section>
           <h1>IMPACTS DU CHANGEMENT CLIMATIQUE</h1>
-          <p
+          <h3
             style={{
               textAlign: "center",
               marginLeft: "100px",
@@ -63,7 +75,7 @@ function Home() {
             quelques articles super intéressants pour te montrer à quel point
             c'est sérieux. Prends une pause, sirote un café (ou ton thé préféré)
             et découvre ce qui se passe vraiment ! ☕💚
-          </p>
+          </h3>
           <div
             style={{
               display: "flex",
@@ -128,6 +140,11 @@ function Home() {
             <br />
             <br />
           </div>
+          <div style={{display:"flex",alignItems:"center",gap:"10px"}}>
+            <h2>Emprunte Carbone</h2>
+            <img style={{width:"60px", height:"60px"}} src="https://c8.alamy.com/compfr/2atnk35/symbole-ou-concept-d-empreinte-carbone-empreinte-pieds-nus-en-herbe-verte-luxuriante-avec-texte-co-2-2atnk35.jpg" />
+          </div>
+
           <h3>
             Savais-tu que chacun de nous a une empreinte carbone, comme une
             petite empreinte écologique personnelle ? C'est un peu comme
@@ -137,13 +154,47 @@ function Home() {
             empreinte carbone sur notre site. C'est super facile et peut-être
             que tu découvriras quelques astuces sympas pour rendre ton impact
             sur notre belle planète un peu plus léger ! 😊🌍
-        
           </h3>
-          <button className="btn"><a style={{ textDecoration: "none", color: "white" }} href="https://nosgestesclimat.fr/">Let's go 🔥</a></button>
+          <button className="btn">
+            <a
+              style={{ textDecoration: "none", color: "white" }}
+              href="https://nosgestesclimat.fr/"
+            >
+              Let's go 🔥
+            </a>
+          </button>
           <br />
+          <br />
+          <br />
+        </section>
+        <section>
+          <h2>Des Solutions à Portée de Main</h2>
+          <div className="solutions-container">
+            <div className="solutions-content">
+              <h3>
+                Hey, pas d'inquiétude ! Il y a tellement de solutions
+                incroyables là-bas, et devine quoi ? Nous les avons rassemblées
+                pour toi ici. Des petites actions du quotidien aux grands
+                changements, chaque geste compte. 🌿💪 Prends le temps de
+                découvrir quelques idées réconfortantes et positivement
+                impactantes.
+              </h3>
+              <button className="btn">
+                <a
+                  style={{ textDecoration: "none", color: "white" }}
+                  href="https://reseauactionclimat.org/6e-rapport-du-giec-quelles-solutions-face-au-changement-climatique/"
+                >
+                  Découvrir 🔥
+                </a>
+              </button>
+            </div>
             <br />
             <br />
-        
+            <br />
+            <div className="video-content">
+              {/* Tu peux ajouter ici une vidéo inspirante ou des images motivantes */}
+            </div>
+          </div>
         </section>
       </main>
       <footer className="home-footer">
